@@ -1,0 +1,33 @@
+.verticaler span.vlist {
+    flex-direction: column;
+    display: flex;
+    width: fit-content;
+    height: auto !important;
+}
+
+.verticaler span.vlist-s {
+    display: none;
+}
+
+.verticaler .mtable {
+    display: flex;
+    justify-content: center;
+}
+
+.verticaler span.tag {
+    display: none;
+}
+
+li {
+    margin: 0.5em !important;
+}
+
+
+.tighter > .dblwrapper p {
+    margin: 0.5em !important;
+}
+
+.tighter {
+    justify-content: center;
+    display: flex;
+}
