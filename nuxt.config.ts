@@ -2,16 +2,17 @@ export default defineNuxtConfig({
   extends: '@nuxt-themes/docus',
   css: [
     'assets/styles/global.css',
+    'assets/styles/katex.min.css',
   ],
-  app: {
-    head: {
-      style: [
-        {
-          children: ':where(.math-inline .katex-html, .math annotation, .math-display .katex-mathml) {display: none;}',
-        }
-      ]
-    }
-  },
+  // app: {
+  //   head: {
+  //     style: [
+  //       {
+  //         children: ':where(.math-inline .katex-html, .math annotation, .math-display .katex-mathml) {display: none;}',
+  //       }
+  //     ]
+  //   }
+  // },
   content: {
     markdown: {
       remarkPlugins: [
